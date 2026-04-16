@@ -1,0 +1,972 @@
+
+Running AutomationTool...
+Using bundled DotNet SDK version: 8.0.300 win-x64
+Starting AutomationTool...
+Parsing command line: -ScriptsForProject="C:/Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/HorrorGameRemi.uproject" BuildCookRun -project="C:/Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/HorrorGameRemi.uproject" -noP4 -clientconfig=Shipping -serverconfig=Shipping -nocompile -nocompileeditor -installed -unrealexe="C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -utf8output -platform=Win64 -build -cook -map=LvL_Horror+Main_Menu_Map -CookCultures=en -unversionedcookedcontent -zenstore -pak -stage -compressed -stage -deploy -cmdline=" -Messaging" -addcmdline="-SessionId=A6C9D37B43FD526BAE3FB48719C36713 -SessionOwner='EDUSERVICES' -SessionName='ProjectMulti'   "
+Initializing script modules...
+Total script module initialization time: 0.12 s.
+Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Setting up ProjectParams for C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject
+********** BUILD COMMAND STARTED **********
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\ThirdParty\DotNet\8.0.300\win-x64\dotnet.exe "C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" HorrorGameRemi Win64 Shipping -Project="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject" -Manifest="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Intermediate\Build\Manifest.xml"  -remoteini="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi"  -skipdeploy  -log="C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\UBA-HorrorGameRemi-Win64-Shipping.txt"
+Log file: C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\UBA-HorrorGameRemi-Win64-Shipping.txt
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi).
+Creating makefile for HorrorGameRemi (manifest 'C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Intermediate\Build\Manifest.xml' not found)
+Available x64 toolchains (1):
+ * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207
+    (Family=14.44.35207, FamilyRank=1, Version=14.44.35211, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio 2022 compiler version 14.44.35211 is not a preferred version. Please use the latest preferred version 14.38.33130
+Writing manifest to C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Intermediate\Build\Manifest.xml
+Target is up to date
+
+Result: Succeeded
+Total execution time: 1.10 seconds
+Took 1,17s to run dotnet.exe, ExitCode=0
+Build command time: 1.19 s
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+HasMapsToCook LvL_Horror+Main_Menu_Map
+Params.HasMapsToCook LvL_Horror+Main_Menu_Map
+Running UnrealEditor Cook for project C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject
+Commandlet log file is C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\Cook-2026.04.16-10.19.24.txt
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject" -run=Cook -Map=LvL_Horror+Main_Menu_Map -CookCultures=en -TargetPlatform=Windows  -zenstore -unversioned -ZenStore -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\Cook-2026.04.16-10.19.24.txt" -stdout -CrashForUAT -unattended -NoLogTimes
+LogInit: Display: Running engine for game: HorrorGameRemi
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 40629
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.5472] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-14700"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject" -run=Cook -Map=LvL_Horror+Main_Menu_Map -CookCultures=en -TargetPlatform=Windows -zenstore -unversioned -ZenStore -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\Cook-2026.04.16-10.19.24.txt" -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="e854062140d913e0e3e0ea869eae5815"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogConfig: Display: Loading Windows ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogAssetRegistry: Display: Asset registry cache read as 88.3 MiB from ../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Intermediate/CachedAssetRegistry_0.bin.
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogHAL: Display: Platform has ~ 64 GB [68325130240 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+LogDerivedDataCache: Display: C:/Users/EDUSERVICES/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.01ms. RandomReadSpeed=2592.55MBs, RandomWriteSpeed=370.33MBs. Assigned SpeedClass 'Local'
+LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+LogShaderCompilers: Display: Using 25 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Intermediate/CachedAssetRegistry_*.bin.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.761 ms
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogAssetRegistry: Display: Triggering cache save on discovery complete
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogEditorDomain: Display: Class /script/PropertyBindingUtilsModule.PropertyBindingPropertyAccess is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+LogZenStore: Display: Establishing oplog 'HorrorGameRemi.086ced9d/EditorDomain'
+LogZenStore: Display: Zen project 'HorrorGameRemi.086ced9d' already exists
+LogZenStore: Display: Zen oplog 'HorrorGameRemi.086ced9d/EditorDomain' already exists
+LogCook: Display: Waiting for Asset Registry
+LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+LogAssetRegistry: Display: Asset registry cache written as 0.0 MiB to ../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Intermediate/CachedAssetRegistry_*.bin
+LogStorageServerPlatformFile: Display: Found 'C:/Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using connection settings from ue.projectstore: HostAddrs='[::1]+10.123.134.192' and HostPort='8558'
+LogStorageServerPlatformFile: Display: Found 'C:/Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using settings from ue.projectstore: ServerProject='HorrorGameRemi.086ced9d' and ServerPlatform='Windows'
+LogStorageServerConnection: Display: Creating zen store connection to [::1]:8558 ("::1").
+LogStorageServerConnection: Display: Zen store connection established to [::1]:8558.
+LogZenStore: Display: Establishing oplog 'HorrorGameRemi.086ced9d/Windows'
+LogZenStore: Display: Zen project 'HorrorGameRemi.086ced9d' already exists
+LogCook: Display: FULL COOK: Neither -legacyiterative nor -cookincremental were specified. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+LogZenStore: Display: Deleting oplog 'HorrorGameRemi.086ced9d/Windows' if it exists
+LogZenStoreWriter: Display: Deleting C:/Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Cooked/Windows/...
+LogZenStore: Display: Zen oplog 'HorrorGameRemi.086ced9d/Windows' created
+LogCook: Display: Sandbox cleanup took 0.036 seconds for platforms Windows
+LogCook: Display: Compiling global changed shaders for platform 'Windows'
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 440 (44000.00%)
+LogShaderLibrary: Display: Total Shaders: 8022, Unique Shaders: 8022 (100.00%)
+LogShaderLibrary: Display: Total Shader Size: 92.16mb, Unique Shaders Size: 92.16mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 4
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 530
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 5964 shaders (74.35%), compressed size: 71.07 MB (12.20 KB avg per shader), uncompressed size: 93.44 MB (16.04 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1926 shaders (24.01%), compressed size: 20.74 MB (11.03 KB avg per shader), uncompressed size: 27.29 MB (14.51 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 128 shaders (1.60%), compressed size: 0.34 MB (2.69 KB avg per shader), uncompressed size: 0.42 MB (3.34 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 3 shaders (0.04%), compressed size: 0.01 MB (2.15 KB avg per shader), uncompressed size: 0.01 MB (3.31 KB avg per shader)
+LogShaderLibrary: Display: SF_WorkGraphComputeNode: 1 shaders (0.01%), compressed size: 0.00 MB (2.75 KB avg per shader), uncompressed size: 0.00 MB (3.35 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 340 (34000.00%)
+LogShaderLibrary: Display: Total Shaders: 4118, Unique Shaders: 4106 (99.71%)
+LogShaderLibrary: Display: Total Shader Size: 12.47mb, Unique Shaders Size: 12.47mb (99.96%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 303
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1686 shaders (41.06%), compressed size: 6.42 MB (3.90 KB avg per shader), uncompressed size: 31.07 MB (18.87 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 2314 shaders (56.36%), compressed size: 5.98 MB (2.65 KB avg per shader), uncompressed size: 23.36 MB (10.34 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 104 shaders (2.53%), compressed size: 0.06 MB (0.60 KB avg per shader), uncompressed size: 0.13 MB (1.29 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.00 MB (0.49 KB avg per shader), uncompressed size: 0.00 MB (1.55 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Warning: Multiple packages found for path `Main_Menu_Map`; it will not be added. Specify the full LongPackageName. Packages found:
+	/Game/GameHorror/Maps/Main_Menu_Map
+	/Game/GameHorror/Maps/MainMenu/Maps/Main_Menu_Map
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: Cooked packages 0 Packages Remain 388 Total 388
+LogCook: Display: Cook Diagnostics: OpenFileHandles=223, VirtualMemory=1732MiB, VirtualMemoryAvailable=27809MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogCook: Display: Cooked packages 208 Packages Remain 1426 Total 1634
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Ai_Enemy_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Ai_Enemy_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow1': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Locked_Key_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Key_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon 2': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BPI_Flashlight_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BPI_Flashlight_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Ai_Enemy_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Ai_Enemy_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Ai_Enemy_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Ai_Enemy_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Locked_Key_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Key_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Point_B_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Point_B_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BPI_Flashlight_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BPI_Flashlight_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BP_Ai_Enemy_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Ai_Enemy_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SkeletalMesh': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SkeletalMesh 2': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SkeletalMesh': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SkeletalMesh 2': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SkeletalMesh': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Locked_Key_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Key_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sphere': BPI_Flashlight_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BPI_Flashlight_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door 2': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door 2': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Double_Door_Button': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Collison box': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Collison box': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Switch': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Switch': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Switch': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door 2': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Key': BP_Locked_Key_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Key_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BP_Locked_Key_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Key_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door 2': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door 2': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Door Frame': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube to interact': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube to interact1': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube to interact2': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube to interact3': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Wall': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Exit REF': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Portal': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Exit REF': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Portal': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Flashlight': BPI_Flashlight_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BPI_Flashlight_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open Door': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open Door': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open and Close Door': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Button Pressed': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open and Close Door': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open Door': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open and Close Door': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open Door': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Open Door': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LogMaterial: Display: Missing cached shadermap for M_Base_BRMAN in PCD3D_SM6, Default, SM6, Game (DDC key hash: 051425561944a138005338a82da636039759bf26), compiling.
+LogMaterial: Warning: [AssetLog] C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Content\ModularSciFiEnv_L\Materials\Base\M_Base_BRMAN.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Function WorldAlignedTexture) (Node TextureSample) Sampler type is Normal, should be Masks for /Game/ModularSciFiEnv_L/Textures/Tile/T_IronRough_BRMA.T_IronRough_BRMA
+	(Function WorldAlignedTexture) (Node TextureSample) Sampler type is Normal, should be Masks for /Game/ModularSciFiEnv_L/Textures/Tile/T_IronRough_BRMA.T_IronRough_BRMA
+	(Function WorldAlignedTexture) (Node TextureSample) Sampler type is Normal, should be Masks for /Game/ModularSciFiEnv_L/Textures/Tile/T_IronRough_BRMA.T_IronRough_BRMA
+
+LogMaterial: Display: Missing cached shadermap for M_Base_BRMAN in PCD3D_SM5, Default, SM5, Game (DDC key hash: 960d11be4479b649177bf76e99cc0ebb10c05ab3), compiling.
+LogMaterial: Warning: [AssetLog] C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Content\ModularSciFiEnv_L\Materials\Base\M_Base_BRMAN.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Function WorldAlignedTexture) (Node TextureSample) Sampler type is Normal, should be Masks for /Game/ModularSciFiEnv_L/Textures/Tile/T_IronRough_BRMA.T_IronRough_BRMA
+	(Function WorldAlignedTexture) (Node TextureSample) Sampler type is Normal, should be Masks for /Game/ModularSciFiEnv_L/Textures/Tile/T_IronRough_BRMA.T_IronRough_BRMA
+	(Function WorldAlignedTexture) (Node TextureSample) Sampler type is Normal, should be Masks for /Game/ModularSciFiEnv_L/Textures/Tile/T_IronRough_BRMA.T_IronRough_BRMA
+
+LogMaterial: Warning: Cooking a material resource (in M_Base_BRMAN hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogMaterial: Warning: Cooking a material resource (in M_Base_BRMAN hierarchy) that doesn't have a valid ShaderMap! Shadermap pointer is null.
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+LogCook: Display: Cooked packages 1158 Packages Remain 477 Total 1635
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+LogCook: Display: Cooked packages 1520 Packages Remain 115 Total 1635
+LogCook: Display: Cooked packages 1635 Packages Remain 0 Total 1635
+LogCook: Display: Cook Diagnostics: OpenFileHandles=4726, VirtualMemory=3709MiB, VirtualMemoryAvailable=25809MiB
+LogCook: Display: Finishing up...
+LogAssetRegistryGenerator: Display: Saving asset registry v21.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Cooked/Windows/HorrorGameRemi/Metadata/DevelopmentAssetRegistry.bin num assets 1680, size is 3218.02kb, XxHash64[LE] = 0xAEA4A752A69311A3, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 1673, size is 2432.10kb
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'HorrorGameRemi' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 206, Unique Shadermaps: 169 (82.04%)
+LogShaderLibrary: Display: Total Shaders: 3268, Unique Shaders: 2195 (67.17%)
+LogShaderLibrary: Display: Total Shader Size: 25.00mb, Unique Shaders Size: 18.52mb (74.09%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 9
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 775
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     56, 45, 43, 32, 31, 30, 22, 22, 22, 21
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1030 shaders (46.92%), compressed size: 7.39 MB (7.35 KB avg per shader), uncompressed size: 9.69 MB (9.63 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 500 shaders (22.78%), compressed size: 6.29 MB (12.89 KB avg per shader), uncompressed size: 8.32 MB (17.04 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 560 shaders (25.51%), compressed size: 3.93 MB (7.20 KB avg per shader), uncompressed size: 5.20 MB (9.51 KB avg per shader)
+LogShaderLibrary: Display: SF_Mesh: 105 shaders (4.78%), compressed size: 0.90 MB (8.75 KB avg per shader), uncompressed size: 1.07 MB (10.44 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-HorrorGameRemi-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'HorrorGameRemi' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 206, Unique Shadermaps: 167 (81.07%)
+LogShaderLibrary: Display: Total Shaders: 2080, Unique Shaders: 1285 (61.78%)
+LogShaderLibrary: Display: Total Shader Size: 4.95mb, Unique Shaders Size: 3.34mb (67.46%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 7
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 355
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     44, 33, 32, 30, 21, 21, 21, 20, 20, 19
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 714 shaders (55.56%), compressed size: 1.94 MB (2.78 KB avg per shader), uncompressed size: 7.16 MB (10.27 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 426 shaders (33.15%), compressed size: 1.10 MB (2.65 KB avg per shader), uncompressed size: 3.39 MB (8.16 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 145 shaders (11.28%), compressed size: 0.30 MB (2.09 KB avg per shader), uncompressed size: 1.10 MB (7.79 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-HorrorGameRemi-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogZenStoreWriter: Display: Flushing...
+LogZenStoreWriter: Display: Saving Zen filesystem manifest 'C:/Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/Saved/Cooked/Windows/HorrorGameRemi/Metadata/zenfs.manifest'
+LogZenStoreWriter: Display: Output:	38960 Public runtime script objects
+LogCook: Display: Cook by the book total time in tick 6.437575s total time 9.452127
+LogCook: Display: Peak Used virtual 5314 MiB Peak Used physical 4962 MiB
+LogCook: Display: Packages Cooked: 1628, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 7, Total Packages: 1635
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 0.036s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.005s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.000s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.001s (1)
+LogCookStats: Display:     TickMainCookLoop: 6.438s (2)
+LogCookStats: Display:       PumpPollables: 0.002s (2)
+LogCookStats: Display:       PumpRequests: 0.027s (52)
+LogCookStats: Display:       LoadPackageForCooking: 1.666s (5828)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (1635)
+LogCookStats: Display:       SavingPackages: 4.616s (151)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 0.138s (17069)
+LogCookStats: Display:         PrepareSave: 0.175s (15560)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 0.598s (1634)
+LogCookStats: Display:           PrepareSave: 0.597s (1964)
+LogCookStats: Display:         SaveCookedPackage: 3.370s (1635)
+LogCookStats: Display:           GEditorSavePackage: 3.275s (1635)
+LogCookStats: Display:             VerifyCanCookPackage: 0.007s (1628)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.200s (1635)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (4)
+LogCookStats: Display:       WaitForAsync: 0.009s (1)
+LogCookStats: Display:     CookByTheBookFinished: 0.326s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.042s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.009s (1)
+LogCookStats: Display:       ChunkGeneration: 0.010s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.000s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.027s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.005s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.087s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.003s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.001s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.001s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.059s (1)
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=0
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=4
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000014
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=0.000090
+LogCookStats: Display:     AsyncCompileTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=0
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.000118
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=0.169764
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     NumRequestedLoads=3646
+LogCookStats: Display:     NumPackagesLoaded=4503
+LogCookStats: Display:     NumInlineLoads=857
+LogCookStats: Display:     LoadPackageTimeSec=1.768050
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display:     NumPackagesSaved=1635
+LogCookStats: Display:     SavePackageTimeSec=3.133669
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.015062
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: CookOnTheFlyServer
+LogCookStats: Display:     PeakRequestQueueSize=1634
+LogCookStats: Display:     PeakLoadQueueSize=64
+LogCookStats: Display:     PeakSaveQueueSize=450
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=-nan(ind)
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display:
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=13.603747
+LogCookStats: Display:  0. 0.StartupWallTimeSec=3.940702
+LogCookStats: Display:  0. 1.StartCookByTheBookTimeSec=2.880123
+LogCookStats: Display:  0. 1. 0.BlockOnAssetRegistryTimeSec=0.326618
+LogCookStats: Display:  0. 1. 1.GameCookModificationDelegateTimeSec=0.000017
+LogCookStats: Display:  0. 2.TickCookOnTheSideTimeSec=0.527151
+LogCookStats: Display:  0. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=1.666188
+LogCookStats: Display:  0. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=3.370573
+LogCookStats: Display:  0. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=0.773131
+LogCookStats: Display:  0. 3.TickLoopGCTimeSec=0.015325
+LogCookStats: Display:  0. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000006
+LogCookStats: Display:  0. 6.TickLoopProcessDeferredCommandsTimeSec=0.000002
+LogCookStats: Display:  0. 7.TickLoopTickCommandletStatsTimeSec=0.000000
+LogCookStats: Display:  0. 8.TickLoopFlushRenderingCommandsTimeSec=0.001543
+LogCookStats: Display:  0. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 10.ValidationTimeSec=0.000176
+LogCookStats: Display:  1.CookParameters=
+LogCookStats: Display:  1. 0.TargetPlatforms=Windows
+LogCookStats: Display:  1. 1.CookProject=HorrorGameRemi
+LogCookStats: Display:  1. 2.CookCultures=en
+LogCookStats: Display:  1. 3.IsCookAll=false
+LogCookStats: Display:  1. 4.IsCookOnTheFly=false
+LogCookStats: Display:  1. 5.IsIterativeCook=false
+LogCookStats: Display:  1. 6.IsUnversioned=true
+LogCookStats: Display:  1. 7.CookLabel=
+LogCookStats: Display:  1. 8.IsFastCook=false
+LogCookStats: Display:
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         =InstalledDerivedDataBackendGraph
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =      true
+LogCookStats: Display: TotalGetHits    =      9167
+LogCookStats: Display: TotalGetMisses  =         5
+LogCookStats: Display: TotalGets       =      9172
+LogCookStats: Display: TotalGetHitPct  =  0.999455
+LogCookStats: Display: GetMissPct      =  0.000545
+LogCookStats: Display: TotalPutHits    =         1
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =         1
+LogCookStats: Display: TotalPutHitPct  =  1.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =      7830
+LogCookStats: Display: LocalGetMisses  =         5
+LogCookStats: Display: LocalGetTotal   =      7835
+LogCookStats: Display: LocalGetHitPct  =  0.999362
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =      7830
+LogCookStats: Display: ZenLocalGetTotal=      7835
+LogCookStats: Display: ZenLocalGetHitPct=  0.999362
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  1.183817
+LogCookStats: Display: LocalReadSpeed  =685.986635
+LogCookStats: Display: LocalWriteSpeed =  4.762065
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display:
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: Texture                                        21.88                   0.00             0       1358.79
+LogCookStats: Display: GlobalShader                                    0.14                   0.14             0        104.22
+LogCookStats: Display: BulkDataList                                    0.05                   0.00             0          0.66
+LogCookStats: Display: StaticMesh                                      0.01                   0.00             0         29.43
+LogCookStats: Display: MaterialShader                                  0.01                   0.16             0         35.59
+LogCookStats: Display: SkeletalMesh                                    0.00                   0.00             0         15.33
+LogCookStats: Display: NavCollision                                    0.00                   0.00             0          1.51
+LogCookStats: Display: DistanceField                                   0.00                   0.00             0          7.07
+LogCookStats: Display: CardRepresentation                              0.00                   0.00             0          0.07
+LogCookStats: Display: BulkDataPayloadId                               0.00                   0.00             0          0.02
+LogCookStats: Display: STREAMEDAUDIO                                   0.00                   0.00             0          4.70
+LogCookStats: Display: BodySetup                                       0.00                   0.00             0         15.29
+LogCookStats: Display: GeometryCollection                              0.00                   0.00             1          0.00
+LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.32
+LogCookStats: Display: AnimationSequence                               0.00                   0.00             0          0.11
+LogCookStats: Display: Audio                                           0.00                   0.00             0          4.69
+LogCookStats: Display: MESHDATAKEY                                     0.00                   0.00             0          3.29
+LogCookStats: Display: NiagaraScript                                   0.00                   0.00             0          0.01
+LogCookStats: Display: MaterialTranslation                             0.00                   0.00             0          0.00
+LogPackageBuildDependencyTracker: Display: Package Accesses (884 referencing packages with a total of 11732 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (1346 referencing packages with a total of 6665 unique accesses). 3425 unique accesses that were not associated with a package.
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.001593s to verify the EDL loading graph.
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogCook: Warning: Multiple packages found for path `Main_Menu_Map`; it will not be added. Specify the full LongPackageName. Packages found:
+	/Game/GameHorror/Maps/Main_Menu_Map
+	/Game/GameHorror/Maps/MainMenu/Maps/Main_Menu_Map
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Ai_Enemy_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Ai_Enemy_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow1': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Creepy_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Creepy_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Double_Door_Button_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Double_Door_Button_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Locked_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Locked_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Double_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Locked_Key_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Locked_Key_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Normal_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BP_Normal_Double_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Normal_Double_Door_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon 2': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'icon': BP_Teleport_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Teleport_Door_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Icon': BPI_Flashlight_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BPI_Flashlight_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Automatic_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Automatic_Door_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_0
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Hiding_Door_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Hiding_Door_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Box': BP_Squeez_Through_Wall_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Squeez_Through_Wall_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Ai_Enemy_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Ai_Enemy_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Ai_Enemy_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Ai_Enemy_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_Jumpscare_Ai_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Jumpscare_Ai_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_1
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_2
+LogInit: Display: LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': BP_Light_Switch_C /Game/GameHorror/Demo/Example_Blockout_Map/Demo_Showcase.Demo_Showcase:PersistentLevel.BP_Light_Switch_C_3
+LogInit: Display: NOTE: Only first 50 warnings displayed.
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 147 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  9.67 seconds
+LogShaderCompilers: Display: Shaders left to compile 0
+Took 15,30s to run UnrealEditor-Cmd.exe, ExitCode=0
+Cook command time: 15.31 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Patching bootstrap executable; C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Intermediate\Staging\HorrorGameRemi.exe
+Begin update resource 'C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Intermediate\Staging\HorrorGameRemi.exe' (0)
+Add resource 101, length 104 (True)
+Add resource 1, length 1996 (True)
+Add resource 2, length 2447 (True)
+Add resource 3, length 2535 (True)
+Add resource 4, length 3037 (True)
+Add resource 5, length 3244 (True)
+Add resource 6, length 3531 (True)
+Add resource 7, length 6931 (True)
+Add resource 201, length 128 (True)
+Add resource 202, length 30 (True)
+End update resource (True/0)
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Base.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseCompat.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseDeviceProfiles.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditorKeyBindings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditorSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseGameUserSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseHardware.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseInstallBundle.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseLightmass.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseMaterialExpressions.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BasePakFileRules.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseRuntimeOptions.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseScalability.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseSourceControlSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\ConfigRedirects.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\ConsoleVariables.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\PluginBase.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Layouts\DefaultLayout.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Layouts\UE4ClassicLayout.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Category.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Editor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\EditorTutorials.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Engine.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Keywords.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\PortableObjectExport.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\PortableObjectImport.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\PropertyNames.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\RepairData.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\ToolTips.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\WordCount.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\BaseWindowsEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\BaseWindowsInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsEditorSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsInput.ini
+Excluding config file C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Config\DefaultEditor.ini
+Excluding config file C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Config\DefaultEditorPerProjectUserSettings.ini
+Including config file C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Config\DefaultEngine.ini
+Including config file C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Config\DefaultGame.ini
+Including config file C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Config\DefaultInput.ini
+Reading oplog from Zen...
+Cleaning Stage Directory: C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\StagedBuilds\Windows
+Creating pak using staging manifest.
+DumpManifest: C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PrePak_Windows_NonUFSFiles.txt, NumItems: 18
+DumpManifest: C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PrePak_Windows_NonUFSFilesDebug.txt, NumItems: 3
+DumpManifest: C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PrePak_Windows_UFSFiles.txt, NumItems: 4038
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+Using 0 pak order files:
+Running UnrealPak with arguments: "C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject"  -cryptokeys="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\HorrorGameRemi\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PakCommands.txt"
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealPak.exe "C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject"  -cryptokeys="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\HorrorGameRemi\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PakCommands.txt"
+LogPakFile: Display: ProjectDir: ../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/
+LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+LogZenStore: Display: Establishing oplog HorrorGameRemi.086ced9d / Windows
+LogIoStore: Display: Fetched 1630 oplog items from Zen in 0.42 seconds
+LogIoStore: Display: Parsed 1630 oplog items 0.01 seconds, 5084 chunks
+LogIoStore: Display: Loaded 2384 chunk hashes from Zen in 0.01 seconds, 2384 hashes updated in 0.00 seconds
+LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+LogPakFile: Display: Loading response file C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_HorrorGameRemi-Windows.txt
+LogPakFile: Display: Added 1650 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1650 files in 0.01s.
+LogPakFile: Display: Creating pak C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\StagedBuilds\Windows\HorrorGameRemi\Content\Paks\HorrorGameRemi-Windows.pak.
+OodleDataCompression: Display: Oodle v2.9.13 format for pak/iostore with method=Kraken, level=4=Normal
+LogPakFile: Display: Created pak file: C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\StagedBuilds\Windows\HorrorGameRemi\Content\Paks\HorrorGameRemi-Windows.pak
+LogPakFile: Display: CompressionFormat 0 [Oodle] : 372 files, 29026418 -> 9651945 bytes
+LogPakFile: Display: CompressionFormat 2 [None] : 1278 files, 750141 -> 750141 bytes
+LogPakFile: Display: Added 1650 files, 11033796 bytes total
+LogPakFile: Display: PrimaryIndex size: 23090 bytes
+LogPakFile: Display: PathHashIndex size: 49623 bytes
+LogPakFile: Display: FullDirectoryIndex size: 53654 bytes
+LogPakFile: Display: Compression summary: 33.25% of original size. Compressed Size 9651945 bytes, Original Size 29026418 bytes.
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display:
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 0.510424 seconds
+Took 0,66s to run UnrealPak.exe, ExitCode=0
+Running UnrealPak with arguments: "C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject" -CreateGlobalContainer="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\StagedBuilds\Windows\HorrorGameRemi\Content\Paks\global.utoc" -ProjectStore="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows" -Commands="C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\HorrorGameRemi\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealPak.exe "C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\HorrorGameRemi.uproject" -CreateGlobalContainer="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\StagedBuilds\Windows\HorrorGameRemi\Content\Paks\global.utoc" -ProjectStore="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows" -Commands="C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\HorrorGameRemi\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+LogPakFile: Display: ProjectDir: ../../../../../../Users/EDUSERVICES/Documents/Unreal Projects/HorrorGameRemi/
+LogIoStore: Display: ==================== IoStore Utils ====================
+LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows\HorrorGameRemi\Metadata\Crypto.json'
+LogIoStore: Display: Container signing - DISABLED
+LogIoStore: Display: Directory index - ENABLED
+LogIoStore: Display: Using compression format 'Oodle'
+LogIoStore: Display: Using memory mapping alignment '16384'
+LogIoStore: Display: Using compression block size '65536'
+LogIoStore: Display: Using compression block alignment '2048'
+LogIoStore: Display: Using compression min bytes saved '1024'
+LogIoStore: Display: Using compression min percent saved '5'
+LogIoStore: Display: Using max partition size '0'
+LogIoStore: Display: Not using DDC for compression
+LogIoStore: Display: Using command list file: 'C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\IoStoreCommands.txt'
+LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+LogZenStore: Display: Establishing oplog HorrorGameRemi.086ced9d / Windows
+LogIoStore: Display: Fetched 1630 oplog items from Zen in 0.81 seconds
+LogIoStore: Display: Parsed 1630 oplog items 0.01 seconds, 5084 chunks
+LogIoStore: Display: Loaded 2384 chunk hashes from Zen in 0.01 seconds, 2384 hashes updated in 0.00 seconds
+LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\Cooked\Windows'
+LogIoStore: Display: Found '8' files
+LogIoStore: Display: Creating container targets...
+OodleDataCompression: Display: Oodle v2.9.13 format for pak/iostore with method=Kraken, level=4=Normal
+LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 379 groups (139 of them didn't need new indices), average uncompressed size 150965 bytes, min 249 bytes, max 1048075 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 4106 shaders as 379 groups. Library size changed from 12766 KB (4.38 : 1 ratio) to 5612 KB (9.96 : 1 ratio), 43.96% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 523 groups (159 of them didn't need new indices), average uncompressed size 242926 bytes, min 1249 bytes, max 1045520 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 8022 shaders as 523 groups. Library size changed from 94367 KB (1.31 : 1 ratio) to 53898 KB (2.30 : 1 ratio), 57.12% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 242 groups (99 of them didn't need new indices), average uncompressed size 50525 bytes, min 490 bytes, max 942657 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: HorrorGameRemi-PCD3D_SM5(PCD3D_SM5): Recompressed 1285 shaders as 242 groups. Library size changed from 3416 KB (3.49 : 1 ratio) to 1474 KB (8.10 : 1 ratio), 43.14% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 273 groups (72 of them didn't need new indices), average uncompressed size 93248 bytes, min 2342 bytes, max 1042825 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: HorrorGameRemi-PCD3D_SM6(PCD3D_SM6): Recompressed 2195 shaders as 273 groups. Library size changed from 18964 KB (1.31 : 1 ratio) to 12125 KB (2.05 : 1 ratio), 63.94% of previous.
+LogIoStore: Display: Shaders processed in 0.41 seconds
+LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=14 (28 cores), MaxSourceBufferMemory=3072MiB
+LogIoStore: Display: Processing redirects...
+LogIoStore: Display: Creating disk layout...
+LogIoStore: Display: Ordered 1628 packages using fallback bundle order
+LogIoStore: Display: Serializing container(s)...
+LogIoStore: Display: Writing chunks 3329/3806... [1910 compressed] [74 compression tasks] [Physical: 1253 MiB, Virtual: 3682 MiB]
+LogIoStore: Display: Writing and compressing took 3.30 seconds, writes to disk took 1.36 seconds for 1,602,005,152 bytes @ 1,181,221,377 bytes per second.
+LogIoStore: Display: global: Found perfect hashmap for 1 items.
+LogIoStore: Display: HorrorGameRemi-Windows: Found perfect hashmap for 3805 items.
+LogIoStore: Display: Finalize took 0.4 seconds for 2 writers to write 1,140,547 bytes, 2,873,116 bytes per second
+LogIoStore: Display: Writing tocs... [Physical: 1243 MiB, Virtual: 3644 MiB]
+LogIoStore: Display: 2,384 / 3,806 hashes were loaded from the hash database, by type:
+LogIoStore: Display:     ExportBundleData           1,628
+LogIoStore: Display:     BulkData                   753
+LogIoStore: Display:     OptionalBulkData           3
+LogIoStore: Display: 2,384 / 3,806 chunks attempted to compress, by type:
+LogIoStore: Display:     ExportBundleData           1,628 / 1,628
+LogIoStore: Display:     BulkData                   753 / 753
+LogIoStore: Display:     OptionalBulkData           3 / 3
+LogIoStore: Display:     ScriptObjects              0 / 1
+LogIoStore: Display:     ContainerHeader            0 / 1
+LogIoStore: Display:     ShaderCodeLibrary          0 / 4
+LogIoStore: Display:     ShaderCode                 0 / 1,416
+LogIoStore: Display: Source bytes read:
+LogIoStore: Display:     Zen:                      4,339,786,716
+LogIoStore: Display:         ExportBundleData        342,974,850 bytes over 1,628 reads
+LogIoStore: Display:         BulkData               3,829,039,706 bytes over 753 reads
+LogIoStore: Display:         OptionalBulkData        167,772,160 bytes over 3 reads
+LogIoStore: Display:     Loose File:                           0
+LogIoStore: Display:     Memory:                     151,004,910
+LogIoStore: Display:         ShaderCodeLibrary         1,276,296 bytes over 8 reads
+LogIoStore: Display:         ShaderCode              149,728,614 bytes over 2,832 reads
+LogIoStore: Display: Calculating stats...
+LogIoStore: Display:
+LogIoStore: Display: Container Summary
+LogIoStore: Display: ==================
+LogIoStore: Display:
+LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                              -/-/-/-/-               1            0.65                 2.43                 2.43 -
+LogIoStore: Display: HorrorGameRemi-Windows                              C/-/-/I/-            3805         1113.17              4213.52              1525.36 (63.80% Oodle)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: Total                                                                    3806         1113.82              4215.95              1527.79
+LogIoStore: Display:
+LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+LogIoStore: Display:
+LogIoStore: Display: Compression block padding:     2.71 MiB
+LogIoStore: Display:
+LogIoStore: Display: Container Directory Index
+LogIoStore: Display: ==========================
+LogIoStore: Display:
+LogIoStore: Display: Container                                          Size (KiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                                   0.00
+LogIoStore: Display: HorrorGameRemi-Windows                                 110.53
+LogIoStore: Display:
+LogIoStore: Display: Container Patch Report
+LogIoStore: Display: ========================
+LogIoStore: Display:
+LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+LogIoStore: Display: HorrorGameRemi-Windows                                   3805                0             3805             0.00          1522.65
+LogIoStore: Display:
+LogIoStore: Display: PackageStore
+LogIoStore: Display: =============
+LogIoStore: Display:
+LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: HorrorGameRemi-Windows                                     54            1628               0
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: Total                                                      54            1628               0
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: Input:      1628 Packages
+LogIoStore: Display: Input:      0.00 GB UExp
+LogIoStore: Display: Input:      0.32 GB UAsset
+LogIoStore: Display: Input:      3.72 GB UBulk
+LogIoStore: Display: Input:     58.12 MB for 902 Global shaders
+LogIoStore: Display: Input:      2.23 MB for 218 Shared shaders
+LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+LogIoStore: Display: Input:     11.05 MB for 296 Inline shaders
+LogIoStore: Display:
+LogIoStore: Display: Output:     2560 Imported package entries
+LogIoStore: Display: Output:      828 Packages without imports
+LogIoStore: Display: Output:        0 Public runtime script objects
+LogIoStore: Display: Output:     2.43 MB InitialLoadData
+LogIoStore: Display:
+LogPakFile: Display: UnrealPak executed in 5.014925 seconds
+Took 5,17s to run UnrealPak.exe, ExitCode=0
+DumpManifest: C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_UFSFiles.txt, NumItems: 4039
+DumpManifest: C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_NonUFSFiles.txt, NumItems: 18
+DumpManifest: C:\Users\EDUSERVICES\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 3
+Copying NonUFSFiles to staging directory: C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: C:\Users\EDUSERVICES\Documents\Unreal Projects\HorrorGameRemi\Saved\StagedBuilds\Windows
+Stage command time: 6.57 s
+********** STAGE COMMAND COMPLETED **********
+********** DEPLOY COMMAND STARTED **********
+Deploy command time: 0.01 s
+********** DEPLOY COMMAND COMPLETED **********
+BuildCookRun time: 23.89 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 0m 24s
+AutomationTool exiting with ExitCode=0 (Success)
